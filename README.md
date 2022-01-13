@@ -8,7 +8,7 @@ Initially developed for duplex or simplex repeater control with SvxLink (http://
 
 ## The finished board on top of a Raspberry Pi 3B+ using SvxLink
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/sa0azt/PiRadioInterface/blob/main/piradioint_svxlink.jpg)
 
 
 ## Documentation
