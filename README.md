@@ -13,7 +13,7 @@ Initially developed for duplex or simplex repeater control with SvxLink (http://
 
 ## Documentation
 
-[Schematic - v1.0](https://linktodocumentation)
+[Schematic - v1.0](https://github.com/sa0azt/PiRadioInterface/blob/main/piradioint_sch.pdf)
 
 
 ## Installation
