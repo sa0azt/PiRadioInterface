@@ -1,7 +1,7 @@
 
 # PiRadioInterface v1.0
 
-A simple but hopefully effective interface for controlling your Repeater, Simplex Node, Remote TRX or similar via a Raspberry Pi board.
+A simple but effective interface for controlling your repeater, simplex node, remote transceiver or similar from a Raspberry Pi board using audio and I/O ports.
 
 Initially developed for duplex or simplex repeater control with SvxLink (http://www.svxlink.org/).
 
@@ -59,7 +59,7 @@ Currently working on a simple PayPal site for international purchases, stay tune
 
 Yes, the board is initially developed for use with Svxlink (http://www.svxlink.org)
 
-#### Can this board be used with other software, like Allstar?
+#### Can this board be used with other software, like Echolink & Allstar?
 
 The short answer is yes, as long as audio and general purpose IO ports is enough, then you can use whatever software you want.
 
