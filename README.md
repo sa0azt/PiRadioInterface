@@ -26,7 +26,7 @@ With a fresh installation of the latest Raspbian OS, add an overlay at the end o
 dtoverlay=wm8960-soundcard
 ```
 
-Do note that the WM8960 drivers where implemented in the latest Raspbian OS Kernel and will not work with older versions.
+Note that the WM8960 drivers where implemented in the Raspbian OS kernel v5.4 and will not work with older versions without further configuration.
 
 ### GPIO pinouts
 
@@ -54,6 +54,8 @@ dtoverlay=w1-gpio
 #### Can I buy this board assembled and ready?
 
 Currently working on a simple PayPal site for international purchases, stay tuned!
+
+If you can't wait - drop me an email at mattias (at) hivako.se and ask for a paypal invoice.
 
 #### Can this board be used with Svxlink?
 
