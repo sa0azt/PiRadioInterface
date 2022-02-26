@@ -13,12 +13,13 @@ Initially developed for duplex or simplex repeater control with SvxLink (http://
 
 ## Documentation
 
+### Schematic
+
 [Schematic - v1.0](https://github.com/sa0azt/PiRadioInterface/blob/main/piradioint_sch.pdf)
 
+### Installation
 
-## Installation
-
-### Audio codec drivers
+#### Audio codec drivers
 
 With a fresh installation of the latest Raspbian OS, add an overlay at the end of the file for the WM8960 Audio codec in /boot/config.txt
 
@@ -28,7 +29,9 @@ dtoverlay=wm8960-soundcard
 
 Note that the WM8960 drivers where implemented in the Raspbian OS kernel v5.4 and will not work with older versions without further configuration.
 
-### GPIO pinouts
+After the audio codec is enabled and shown in AlsaMixer, don't forget to unmute the sound to "Left & Right PCM Mixer".
+
+#### GPIO pinouts
 
 The following IO ports (used by the RJ45 connectors) are mapped below
 
@@ -42,14 +45,19 @@ IN2 <-> gpio24
 IN3 <-> gpio25
 ```
 
-### 1-Wire interface
+#### Svxlink GPIO configuration
+
+Follow the instructions at https://github.com/sm0svx/svxlink/wiki/InstallBinRaspbian#gpio-configuration-not-verified-instruction
+
+#### 1-Wire interface
 
 To enable the communication with 1-wire sensors, add the following line at the end of /boot/config.txt
 
 ```bash
 dtoverlay=w1-gpio
 ```
-## FAQ
+
+### FAQ
 
 #### Can I buy this board assembled and ready?
 
@@ -64,7 +72,6 @@ Yes, the board is initially developed for use with Svxlink (http://www.svxlink.o
 #### Can this board be used with other software, like Echolink & Allstar?
 
 The short answer is yes, as long as audio and general purpose IO ports is enough, then you can use whatever software you want.
-
 
 ## License
 
